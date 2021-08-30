@@ -1,0 +1,22 @@
+{
+    "name": "chrome-plugin-demo",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "storage",
+        "declarativeContent",
+        "activeTab",
+        "contextMenus"
+    ],
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "manifest_version": 2
+}
